@@ -1,0 +1,46 @@
+/* header{
+    background-color: aquamarine;
+    margin: -10px;
+}
+header ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    padding: 0.5em;
+    margin: 0;
+}
+header li{
+    margin: 0 1em;
+}
+header li.logo{
+    margin-right: auto;
+}
+header img.logo{
+    width: 30%;
+} */
+
+
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.logo{
+    width: 5rem;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: aquamarine;
+    padding: 0.5rem;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+nav ul li{
+    margin: 0.1rem;
+}
